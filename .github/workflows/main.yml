@@ -22,12 +22,12 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo -D
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         env:
           github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           EXTERNAL_REPOSITORY: cutety/cutety.github.io
-          PUBLISH_BRANCH: master
+          PUBLISH_BRANCH: main
           publish_dir: ./public
