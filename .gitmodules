@@ -1,3 +1,9 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "hugo-theme-yinyang"]
+	path = hugo-theme-yinyang
+	url = https://github.com/joway/hugo-theme-yinyang.git
+[submodule "themes/yinyang"]
+	path = themes/yinyang
+	url = https://github.com/joway/hugo-theme-yinyang.git
