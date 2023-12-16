@@ -4,7 +4,8 @@ title = '朝花夕拾'
 theme = ['yinyang']
 DefaultContentLanguage = "cn"
 [params]
-  subtitle = '勤能补拙，熟能生巧；念念不忘，必有回响！'
+headTitle="朝花夕拾"
+subtitle = '勤能补拙，熟能生巧；念念不忘，必有回响！'
    [[params.socials]]
    name="Github"
    link="https://github.com/cutety"
