@@ -5,10 +5,13 @@ theme = ['yinyang']
 DefaultContentLanguage = "cn"
 [params]
 headTitle="朝花夕拾"
-subtitle = '勤能补拙，熟能生巧；念念不忘，必有回响！'
-   [[params.socials]]
-   name="Github"
-   link="https://github.com/cutety"
+subtitle="勤能补拙，熟能生巧；念念不忘，必有回响！"
 [author]
   name="alex"
   homepage="https://cutety.github.io"
+[[params.socials]]
+name = "About Me"
+link = "https://cutety.github.io"
+[[params.socials]]
+name = "Github"
+link = "https://github.com/cutety"
