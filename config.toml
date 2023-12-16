@@ -2,13 +2,12 @@ baseURL = 'https://cutety.github.io'
 languageCode = 'en-us'
 title = '朝花夕拾'
 theme = 'yinyang'
-[author]
-  name = "alex"
-  homepage = "https://cutety.github.io/"
 [params]
 mainSections = ["posts"]
 headTitle = "朝花夕拾"
 [[params.socials]]
 name = "Github"
 link = "https://github.com/cutety"
-[[params.socials]]
+[[params.author]]
+  name = "alex"
+  homepage = "https://cutety.github.io/"
