@@ -2,6 +2,12 @@ baseURL = 'https://cutety.github.io'
 languageCode = 'en-us'
 title = '朝花夕拾'
 theme = ['yinyang']
+DefaultContentLanguage = "cn"
 [params]
   subtitle = '勤能补拙，熟能生巧；念念不忘，必有回响！'
-   
+   [[params.socials]]
+   name="Github"
+   link="https://github.com/cutety"
+[author]
+  name="alex"
+  homepage="https://cutety.github.io"
