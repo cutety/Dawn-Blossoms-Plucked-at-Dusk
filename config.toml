@@ -15,3 +15,7 @@ link = "https://cutety.github.io"
 [[params.socials]]
 name = "Github"
 link = "https://github.com/cutety"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
